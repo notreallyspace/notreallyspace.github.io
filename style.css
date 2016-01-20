@@ -31,28 +31,36 @@ form{
 
 input[type=text]{
   float: left;
-  width: 70%;
-  height: 60px;
+  width: 60%;
+  height: 80px;
   background-color: rgba(255, 255, 255, 0);
   display: block;
   font-family: sans-serif;
   font-size: 18px;
   appearance: none;
   box-shadow: none;
-  border-bottom: : 2px white;
-  border-radius: none
+  border-radius: 2px;
   color: white;
+  padding-left: 15px;
 }
 
 input[type=submit] {
     padding:5px 15px;
-    width: 25%
-    background:#ccc;
+    width: 30%;
+    height: 82px;
+    background:#fff;
     border:0 none;
     cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
     float: right;
+}
+textarea{
+  padding-left: 20px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
 }
 
 iframe{
